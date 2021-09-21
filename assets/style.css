@@ -4,6 +4,7 @@
     margin: 0;
     background-color: #dad8d8;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,18 +12,17 @@ html {
 a {
     text-decoration: none;
     background-color: #636661;
+    color: #282c6b;
 }
 
 a:visited {
   color: #282c6b;
 }
 
-/* mouse over link */
 a:hover {
   color: rgb(63, 38, 29);
 }
 
-/* selected link */
 a:active {
   color: #282c6b;
 }
@@ -53,12 +53,14 @@ header nav {
 header nav ul {
     list-style-type: none;
     background-color: #636661;
+    
 }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
     background-color: #636661;
+    color: #282c6b;
 
 }
 
