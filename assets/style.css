@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: #dad8d8;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    background-color: #636661;
+}
+
+a:visited {
+  color: #282c6b;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(63, 38, 29);
+}
+
+/* selected link */
+a:active {
+  color: #282c6b;
+}
+
+header {
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #636661;
+    color: #282c6b;
+    position: sticky;
+}
+
+header h1 {
+    display: inline-block;
+    padding: 20px;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 20px;
+    margin-right: 20px;
+    float: right;
+    background-color: #636661;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+
+header nav ul {
+    list-style-type: none;
+    background-color: #636661;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+    background-color: #636661;
+
+}
+
+.container {
+    display: flex;
+    position: relative;
+  }
+
+.container img {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+}
+  
+.text-block {
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    font-size: larger;
+    color: #282c6b;
+    padding: 10px;
+  }
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
+.one-border {
+    padding-right: 225px;
+    width: 100px;
+    height: 200px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #282c6b;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: left;
+    border-right-color: #282c6b;
+    border-right-style: solid;
+    border-right-width: medium;
+  }
+
+.profile img {
+    border: 1px #636661;
+    padding: 0 30px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.info {
+    padding: 5px;
+    width: 550px;
+    height: 100%;
+    margin-top: 10px;
+    color: #282c6b;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .column2 {
+    width: 875px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: space-around;
+  }
+  .workbox1 {
+    border: 2px #000;
+    border-style: solid;
+    align-self: flex-start;
+    flex-grow: 1;
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    background-color: #dad8d8;
+    color: #282c6b;
+    object-fit: cover;
+    position: relative;
+  }
+
+  .turtle {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .workbox1:hover .overlay {
+    opacity: 1;
+  }
+
+.workbox2 {
+    align-self: baseline;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+  }
+
+.workbox3 {
+    align-self: baseline;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+  }
+
+  .workbox4 {
+    border: 2px #000;
+    border-style: solid;
+    align-self: baseline;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #636661;
+    color: #282c6b;
+    object-fit: none;
+    position: relative;
+
+  }
+
+  .workbox4:hover .overlay {
+    opacity: 1;
+  }
+
+  .workbox5 {
+    border: 2px #000;
+    border-style: solid;
+    align-self: baseline;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    color: #282c6b;
+    object-fit: contain;
+    position: relative;
+
+  }
+
+  .workbox5:hover .overlay {
+    opacity: 1;
+  }
+
+/* From "Cool Buttons" by Federico Dossena https://fdossena.com/?p=html5cool/buttons/i.frag */
+a.button {
+  align-self: center;
+    padding: 10px;
+    margin-left: 60px;
+    border-radius: 25%;
+    text-align: center;
+    font-size: 30px;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#282c6b;
+    transition: all 1s;
+    }
+            
+a.button:hover{
+    background-color:#4095c6;
+            }
+
+@media all and (max-width:30em){
+    a.button{
+    display:block;
+    margin:0.2em auto;
+    }
+    }
+      
