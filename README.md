@@ -11,8 +11,6 @@ AS AN employer
 I WANT to view a potential employee's deployed portfolio of work samples
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
 ```
-
-
 ## Acceptance Criteria Met
 
 1. I created a page with my name, recent photo and links to About Me, My Work and Contact Info
@@ -29,3 +27,8 @@ SO THAT I can review samples of their work and assess whether they're a good can
 
 7. Overall, the application resembles the mock-up functionality provided in the homework instructions
 
+## Landing Page Screenshot
+![Chuck's Portfolio Page](/assets/homework2_screenshot.png)
+
+## Landing Page URL
+https://chuck2076.github.io/Homework_2_CRS/
