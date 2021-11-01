@@ -1,7 +1,4 @@
-# Homework_2_CRS
-Second homework - Creating a Portfolio Landing Page
-
-## My Task
+## My Portfolio
 Create a Portfolio Landing Page that showcases my work to a potential employer
 
 ## User Story
@@ -31,4 +28,4 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ![Chuck's Portfolio Page](/assets/homework2_screenshot.png)
 
 ## Landing Page URL
-https://chuck2076.github.io/Homework_2_CRS/
+https://chuck2076.github.io/PortfolioPage_CRS
